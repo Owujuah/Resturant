@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pa&#768;ndo&#768;ra&#768;</title>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">  
+        <header>
+            <h1>Pa&#768;ndo&#768;ra&#768;</h1>
+    
+            <ul>
+                <li><a href="/"><i class="icon-home"></i></a></li>
+                <li><a href="/"><i class="icon-group"></i></a></li>
+                <li><a href="/"><i class="icon-info"></i></a></li>
+                <li><a href="/"><i class="icon-list-alt"></i></a></li>
+            </ul>
+        </header>
+      </div>  
+        <div class="container">
+            <div class="title">Registration</div>
+            <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input type="text" placeholder="Owujuah" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Username</span>
+                            <input type="text" placeholder="Enter User Name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">E-mail</span>
+                            <input type="text" placeholder="owujuah@gmail.com" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Phone Number</span>
+                            <input type="text" placeholder="Tel" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Password</span>
+                            <input type="password" placeholder="Enter Your Password" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Confirm Password</span>
+                            <input type="password" placeholder="Confirm Your Password" required>
+                        </div>
+                    </div>
+                            <div class="gender-details">
+                                <input type="radio" name="gender" id="dot-1">
+                                <input type="radio" name="gender" id="dot-2">
+                                <input type="radio" name="gender" id="dot-3">
+
+                                <span class="gender-title">Gender</span>
+                                <div class="categories">
+                                    <label for="dot-1">
+                                        <span class="dot one"></span>
+                                        <span class="gender">Male</span>
+                                    </label>
+                                    <label for="dot-2">
+                                        <span class="dot two"></span>
+                                        <span class="gender">Female</span>
+                                    </label>
+                                    <label for="dot-3">
+                                        <span class="dot three"></span>
+                                        <span class="gender">Not Specified</span>
+                                    </label>
+                                </div>
+                            </div>
+                                <button><a href="contact.html">Register</a></button>
+            </form>
+        </div>
+
+            <div class="footer">
+                <h1>Pa&#768;ndo&#768;ra&#768;</h1>
+                  
+                                   <div class="contactus">
+                                      <ul> 
+                                        <h3>Contact Us</h3>
+                                        <p><i class="icon-instagram"></i></p>
+                                        <p><i class="icon-phone-sign"></i></p>
+                                        <p><i class="icon-youtube"></i></p>
+                                        <p><i class="icon-facebook"></i></p>
+                                      </ul> 
+                                   </div>
+                                           <div class="copy">
+                                               <p>&copy;2022 All Rights Reserved</p>
+                                           </div>
+           </div>
+        <style>
+
+.wrapper{
+    position: fixed;
+    margin: 0%;
+    height: auto;
+    width: 100%;
+    z-index: 10;
+    margin-top: -0.87%;
+    margin-left: -0.8%;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 20px 20px;
+    line-height: 30px;
+    margin-right: -0.89%;
+}
+
+header h1{
+    margin-left: 3%;
+    margin-top: 2%;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+header ul{
+    margin-right: 3%;
+}
+
+.wrapper header ul li{
+    list-style-type:  none;
+    display: inline-flex;
+    padding: 25px;
+    margin-top: 2%;
+
+}
+
+.wrapper header ul li i{
+    font-size: x-large;
+}
+
+header li a{
+    color: black;
+    text-decoration: none;
+}
+
+header li a:hover{
+    color: brown;
+    transition: 2s;
+}
+
+            
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+
+            }
+
+            body{
+             background-image: url(images/RESS.jpg);
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+            }
+
+            .container{
+                max-width: 700px;;
+                width: 100%;
+                margin-top: 150px;
+                background: #fff;
+                padding: 15px 30px;
+                border-radius: 5px;
+                margin-left: 330px;
+                background-color: rgba(226, 214, 198, 0.747);
+            }
+
+            .container .title{
+                font-size: 25px;
+                font-weight: 500;
+                position: relative;
+            }
+                /*
+            .container .title::before{
+                content:'';
+                position: absolute;
+                left: 0;
+                bottom: 0%;
+                height: 2px;
+                width: 30px;
+                background-color: burlywood;
+            }
+                    */
+            .container form .user-details{
+                margin: 20px 0 12px 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            form .user-details .input-box{
+                width: calc(100% / 2 - 20px);
+                margin-bottom: 5px;
+            }
+
+            .user-details .input-box .details{
+                display: block;
+                font-weight: 500;
+            }
+
+            .user-details .input-box input{
+                height: 45px;
+                width: 100%;
+                outline: none;
+                border-radius: 5px;
+                border: none;
+                border-bottom: 1px  solid grey;
+                padding-left: 15px;
+                font-size: 16px;
+                transition: all 0.3s ease;
+                background: transparent;
+            }
+            .user-details .input-box input:focus,
+            .user-details .input-box input:valid{
+                border-color: #ccc;
+            }
+
+            form .gender-details .gender-title{
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            form .gender-details .categories{
+               display: flex;
+                width: 80%;
+                margin: 14px 0;
+                justify-content: space-between;
+            }
+
+            .gender-details .categories label{
+                display: flex;
+                align-items: center;
+            }
+
+            .gender-details .categories .dot{
+                height: 15px;
+                width: 15px;
+                background: #d9d9d9;
+                border-radius: 50%;
+                margin-right: 10px;
+                border: 5px solid transparent;
+                transition: all 0.3s ease;
+            }
+
+            #dot-1:checked ~ .categories label .one,
+            #dot-2:checked ~ .categories label .two,
+            #dot-3:checked ~ .categories label .three{
+                border-color: #d9d9d9;
+                background: black;
+            }
+
+            form input[type="radio"]{
+                display: none;
+            }
+            form button{
+                height: 45px;
+                margin: 45px 0;
+                margin: 5%;
+                margin-left: 83%;
+                width: 20%;
+                border-radius: 10px;
+                border-color: white;
+            }
+
+            .container button a{
+                text-decoration: none;
+                color: black;
+            }
+
+            /*footer*/
+            .footer{
+                background-color: rgba(226, 214, 198, 0.37);
+                margin-top: 12.5%;
+                margin-bottom: -2%;
+                margin-left: -1%;
+                margin-right: -0.75%;
+            }
+
+            .footer h1{
+                position: absolute;
+                margin-left: 44%;
+            }
+
+            .footer .contactus{
+                margin-left: 80%;
+                margin-top: -10%;
+                display: flex;
+            }
+
+            .contactus i{
+                font-size: x-large;
+            }
+
+            .contactus ul p{
+                display: inline-flex;
+                padding: 10px;
+            }
+
+                .copy p{
+                    text-align: center;
+                }
+
+        </style>
+  
+</body>
+</html>
